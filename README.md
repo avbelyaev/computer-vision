@@ -33,7 +33,7 @@ See `./image-processing/`
     - восемью комплексными числами
     - в полярных координатах
     
-![o](image-processing/contours/boundaries_encoding/star.png) ![o](image-processing/contours/boundaries_encoding/pine5.jpg)
+![o](image-processing/contours/boundaries_encoding/star.png) ![o](image-processing/contours/boundaries_encoding/pine5.jpg) ![o](image-processing/contours/boundaries_encoding/letter.png)
         
 ## 4. Haralick
 
