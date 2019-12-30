@@ -2,30 +2,43 @@
 
 See `./image-processing/`
 
-Labs:
+## 1. Convolution
 
-1. Операции свертки и Фурье-анализ
-    - свертка изображений с ядрами
-    - базис Фурье
-1. Преобразование Фурье. Спектры изображений
-1. Контуризация
-    - Выделение контуров на изображении
-        - дифференциальный метод
-        - thresholding
-        - skeletonization
-        - non-maximum supression (NMS)
-        - статистический метод
-    - Кодирование границ изображения
-        - по трем признакам
-        - трехразрядным кодом
-        - проекциями
-        - координатами концов векторов
-        - восемью комплексными числами
-        - в полярных координатах
-1. Параметры Харалика
-    - Классификация текстур методами кластеризации
+Операции свертки и Фурье-анализ    
+- свертка изображений с ядрами
+- базис Фурье
+    
+![o](image-processing/convolution/img/robin3.png) ![o](image-processing/convolution/img/robin3-p.png)
     
     
+## 2. Fourier
+
+Преобразование Фурье. Спектры изображений
+
+
+## 3. Contours
+
+Контуризация
+- Выделение контуров на изображении
+    - дифференциальный метод
+    - thresholding
+    - skeletonization
+    - non-maximum supression (NMS)
+    - статистический метод
+- Кодирование границ изображения
+    - по трем признакам
+    - трехразрядным кодом
+    - проекциями
+    - координатами концов векторов
+    - восемью комплексными числами
+    - в полярных координатах
+    
+![o](image-processing/contours/boundaries_encoding/star.png) ![o](image-processing/contours/boundaries_encoding/pine5.jpg)
+        
+## 4. Haralick
+
+Параметры Харалика
+- Классификация текстур методами кластеризации
     
     
     
@@ -185,3 +198,24 @@ see `./alex`
 Необходимо реализовать алгоритм компьютерного зрения с использованием нейронных сетей. 
 
 see `./face_rec_neural`
+
+
+
+
+## 7. Roadlane detection with neural networks
+
+Дано
+- [массив изображений](https://www.dropbox.com/s/rrh8lrdclzlnxzv/full_CNN_train.p?dl=0)
+- [массив дорожных разметок](https://www.dropbox.com/s/ak850zqqfy6ily0/full_CNN_labels.p?dl=0)
+
+Обучить алгоритм распознавания дорожной разметки с помощью любой наиболее подходящей архитектуры семантической сегментации.
+
+see `./roadlane`
+
+#### Original
+
+![o](roadlane/original.gif)
+
+#### Detected
+
+![o](roadlane/merged.gif) ![o](roadlane/detected.gif)
