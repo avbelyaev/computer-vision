@@ -236,3 +236,7 @@ see `./roadlane`
 #### Detected
 
 ![o](roadlane/merged.gif) ![o](roadlane/detected.gif)
+
+Была использована FCN8 архитектура с немного измененными рамерностями:
+
+![arch](roadlane/arch.png)
